@@ -114,7 +114,7 @@ class Program
     {
         SistemaInventario inventario = new SistemaInventario();
 
-        // Pruebas
+        
         inventario.AgregarLista(101, "Laptop");
         inventario.AgregarLista(102, "Mouse");
         inventario.AgregarLista(103, "Teclado");
@@ -123,7 +123,7 @@ class Program
 
         inventario.MostrarTodo();
 
-        // Probando eliminación
+      
         inventario.EliminarLista(102);
 
 
